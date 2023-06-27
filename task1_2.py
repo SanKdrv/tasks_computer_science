@@ -13,8 +13,6 @@ for i in range(0, n):
     while j != n:
         Summ += nums[j]
         array.append(nums[j])
-        if Summ > S:
-            break
         if Summ == S:
             answer.append(array)
             break
