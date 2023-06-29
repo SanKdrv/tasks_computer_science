@@ -45,14 +45,15 @@ def max_square(matrix):
     return max_size
 
 
-body = generate_matrix(5, 5)
-for i in range(len(body)):
-    print(body[i])
-print(max_square(body))
+# body = generate_matrix(5, 5)
+# for i in range(len(body)):
+#     print(body[i])
+# print(max_square(body))
 
-# while True:
-#     newbody = generate_matrix(5,5)
-#     if max_square(newbody) == 3:
-#         for i in range(len(newbody)):
-#             print(newbody[i])
-#         break
+
+while True:
+    newbody = generate_matrix(5,5)
+    if max_square(newbody) == 4:
+        for i in range(len(newbody)):
+            print(newbody[i])
+        break

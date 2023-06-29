@@ -7,7 +7,7 @@ S = 3
 answer = []
 n = len(nums)
 for i in range(0, n):
-    array = []2
+    array = []
     Summ = 0
     j = i
     while j != n:
